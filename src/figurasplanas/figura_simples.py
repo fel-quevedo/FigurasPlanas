@@ -32,4 +32,5 @@ class Retangulo(FiguraPlana):
 class Circulo(FiguraPlana):
     """Rpresenta um círculo"""
     def __init(self,r:float) -> None:
+        A = pi*r**2
         pass
