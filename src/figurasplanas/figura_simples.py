@@ -28,3 +28,9 @@ class Retangulo(FiguraPlana):
         txt = f"Retângulo: b= {self.b}, h= {self.h} \n"
         txt += super().__str__()
         return txt
+
+class Circulo(FiguraPlana):
+    """Rpresenta um círculo"""
+    def __init(self,r:float) -> None:
+        A = pi*r**2
+        pass
