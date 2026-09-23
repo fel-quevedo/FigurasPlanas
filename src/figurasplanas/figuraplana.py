@@ -1,7 +1,7 @@
 from math import pi, sqrt, sin, cos, atan
 
 """ Esse é o módulo básico para o pacote FigurasPlanas
-bla bla bla"""
+bla bla bla mais blablabla"""
 
 
 class FiguraPlana:
