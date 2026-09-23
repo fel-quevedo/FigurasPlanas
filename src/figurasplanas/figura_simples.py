@@ -33,4 +33,9 @@ class Circulo(FiguraPlana):
     """Rpresenta um círculo"""
     def __init(self,r:float) -> None:
         A = pi*r**2
+        Ix = pi*r**4/4
+        Iy = Ix
+        Ixy = 0.0
+        xc = yc = 0
+        super().__init__(A,Ix,Iy,xc,yc,Ixy)
         pass
